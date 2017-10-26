@@ -12,7 +12,7 @@ async def on_ready():
 	print(bot.user.name)
 	print(bot.user.id)
 	print('------')
-	bot.change_presence(game='Testing testing', status=None, afk=False)
+	await bot.change_presence(game=discord.Game(name='Testing Testing'), status=None, afk=False)
 	print('Status updated')
 	print('------')
 	
