@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'MzYzODIzMzA2ODk1NTIzODQw.DNASgQ.vrh7hsjLzZFF_psYMmlm9xMXw4U'
+TOKEN = ''
 
 description = '''Maki-chan bot for random commands by Echo#6945'''
 bot = commands.Bot(command_prefix='?', description=description)
